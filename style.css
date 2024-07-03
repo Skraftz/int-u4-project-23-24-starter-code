@@ -7,6 +7,48 @@ body {
     padding: 20px;
 }
 
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    margin-left:0.25%;
+    margin-right:0.25%;
+
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:darkred;
+    background-image: linear-gradient(
+      to top left,
+      rgb(0 0 0 / 20%),
+      rgb(0 0 0 / 20%) 30%,
+      rgb(0 0 0 / 0%)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgb(255 255 255 / 60%),
+      inset -2px -2px 3px rgb(0 0 0 / 60%);
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
+.buttons {
+    display:flex; justify-content:center;
+    width: 100%;
+}
+
+#next{
+    float: right;
+    background-color:darkseagreen;
+}
+#next:hover{
+    background-color: aquamarine;
+}
+
 /* Title section styling */
 .title h1 {
     text-align: center;
@@ -20,6 +62,8 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
 }
 
 .questions h4 {

@@ -1,0 +1,54 @@
+[
+  {
+    "Question": "Find out if you're an agreeable person!!", 
+    "img": 
+      {
+        "src":"https://media.licdn.com/dms/image/C5112AQEAOruAOpOrMA/article-cover_image-shrink_720_1280/0/1523437435896?e=2147483647&v=beta&t=4-gtE85woPZJyrHmErmu5HPcFJJ2SbFT_CW-F9HWvLo", 
+        "alt": "Man giving you a thumbs up"
+      }, 
+    "answers": [
+    ]
+  },
+  {
+    "Question": "Cats or Dogs?", 
+    "img": 
+      {
+        "src":"https://i.ytimg.com/vi/uIqXKzB9Hec/maxresdefault.jpg", 
+        "alt": "Image of a cat and dog facing each other"
+      }, 
+    "answers": [
+      {
+        "text": "Dogs", 
+        "value": "w"
+      },
+      {
+        "text": "Cats", 
+        "value": "l"
+      }
+    ]
+  },
+  {
+    "Question": "Which way to play is better?", 
+    "img": 
+      {
+        "src":"https://technave.com/data/files/mall/article/202103170936543087.jpg", 
+        "alt": "PC, console, or Mobile?"
+      }, 
+    "answers": [
+      {
+        "text": "PC", 
+        "value": "m"
+      },
+      {
+        "text": "Console", 
+        "value": "l"
+      },
+      {
+        "text": "Mobile", 
+        "value": "w"
+      }
+    ]
+  },
+  {"Question": "End", "answers": [
+    ]}
+]
